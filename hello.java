@@ -14,5 +14,8 @@ public class hello {
     for(int i = 0;i < names.lenght;i ++){
       System.out.println("私の名前は" + names[i] + "です")
     }
+    for(String name:names){
+      System.out.println("私の名前は" + name + "です");
+    }
   }
 }
