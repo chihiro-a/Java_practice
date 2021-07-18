@@ -47,4 +47,12 @@ public class hello {
   System.out.println(8 < 5 || 3 >= 3);
   System.out.println(!(8 < 5));
   
+  int x = 5;
+  if(x > 2){
+    System.out.println("xは2より大きい");
+  }
+  if(x > 8){
+    System.out.println("xは8より大きい");
+  }
+  
 }
