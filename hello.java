@@ -11,5 +11,8 @@ public class hello {
       args[0], args[1], Integer.toString(sum));
       
     String[] names = {"にんじゃわんこ","ひつじ仙人","ベイビーわんこ"}
+    for(int i = 0;i < names.lenght;i ++){
+      System.out.println("私の名前は" + names[i] + "です")
+    }
   }
 }
