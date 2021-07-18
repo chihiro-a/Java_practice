@@ -37,4 +37,7 @@ public class hello {
   System.out.println(12 / 4 != 3);
   boolean bool = 3 * 9 == 27;
   System.out.println(bool);
+  
+  System.out.println(8 < 5);
+  System.out.println(3 >= 2);
 }
