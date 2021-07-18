@@ -78,5 +78,12 @@ public class hello {
     default:
       System.out.println("吉です");
       break;
-  }
+    }
+    
+    int number = 10;
+    while(number > 0){
+      System.out.println(number)
+      number -- 
+    }
+  
 }
