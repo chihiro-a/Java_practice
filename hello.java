@@ -75,5 +75,8 @@ public class hello {
     case 2:
       System.out.println("3で割ると2余ります")
       break;
+    default:
+      System.out.println("吉です");
+      break;
   }
 }
