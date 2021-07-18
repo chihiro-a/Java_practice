@@ -31,4 +31,10 @@ public class hello {
     System.out.println("奇数の和は" + oddSum + "です");
     System.out.println("偶数の和は" + evenSum + "です");
   }
+  System.out.println(true);
+  System.out.println(false);
+  System.out.println(12 / 4 == 3);
+  System.out.println(12 / 4 != 3);
+  boolean bool = 3 * 9 == 27;
+  System.out.println(bool);
 }
