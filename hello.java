@@ -91,5 +91,30 @@ public class hello {
       System.out.println(number)
       number -- 
     }
+    
+     int number = 12;
+  if(number < 10){
+    System.out.println("10より小さい")
+  } else if(number < 20){
+    System.out.println("10以上、20より小さい");
+  } else {
+    System.out.println("20以上");
+  }
+  
+  int number = 12;
+  switch(number % 3){
+    case 0:
+      System.out.println("3で割り切れます");
+      break;
+    case 1:
+      System.out.println("3で割ると1余ります");
+      break;
+    case 2:
+      System.out.println("3で割ると2余ります")
+      break;
+    default:
+      System.out.println("吉です");
+      break;
+    }
   
 }
