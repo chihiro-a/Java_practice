@@ -85,5 +85,11 @@ public class hello {
       System.out.println(number)
       number -- 
     }
+    
+    int number = 10;
+    while(number > 0){
+      System.out.println(number)
+      number -- 
+    }
   
 }
